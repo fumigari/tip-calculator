@@ -1,0 +1,12 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ariany Ferreira",
+  "license": "ISC"
+}
