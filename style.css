@@ -1,0 +1,28 @@
+:root {
+	--strong-cyan: hsl(172, 67%, 45%);
+	--very-dark-cyan: hsl(183, 100%, 15%);
+	--dark-grayish-cyan: hsl(186, 14%, 43%);
+	--grayish-cyan: hsl(184, 14%, 56%);
+	--light-grayish-cyan: hsl(185, 41%, 84%);
+	--very-light-grayish-cyan: hsl(189, 41%, 97%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	font-family: 'Space Mono';
+	font-size: 24px;
+	max-width: 80vw;
+	width: 100%;
+	background-color: var(--light-grayish-cyan);
+}
+
+.block {
+	width: 63%;
+	height: 484px;
+	background-color: var(--white);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border-radius: 30px;
+}
