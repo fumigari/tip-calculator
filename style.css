@@ -16,37 +16,36 @@ body {
 	margin: 0;
 }
 
-.logo {
+.container {
 	display: flex;
 	justify-content: center;
-	position: absolute;
-	top: 14%;
-  left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.logo {
+	margin: 10px;
 }
 
 .block {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	width: 45%;
-	height: 484px;
+	width: 50%;
+	height: 70vh;
 	background-color: var(--white);
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	position: absolute;
 	border-radius: 26px;
 }
 
 .block__details {
 	width: 45%;
-	height: 418px;
+	height: 63vh;
 }
 
 .block__display {
 	width: 45%;
-	height: 418px;
+	height: 63vh;
 	background-color: var(--very-dark-cyan);
 	border-radius: 16px;
 	display: flex;
