@@ -1,0 +1,15 @@
+.reset-button {
+	height: 50px;
+	width: 80%;
+	align-self: center;
+	margin-bottom: 40px;
+	border-color: transparent;
+	background-color: var(--strong-cyan);
+	font-family: 'Space Mono';
+	font-size: 20px;
+	color: var(--very-dark-cyan);
+}
+
+.reset-button:disabled {
+	background-color: var(--disabled);
+}
