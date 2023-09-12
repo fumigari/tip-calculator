@@ -71,7 +71,7 @@ body {
 }
 
 /* Mobile width */
-@media (max-width: 1024px) {
+@media screen, (orientation: portrait), (device-width: 400px) {
 	.container {
 		height: auto;
 		flex-direction: column;
@@ -88,20 +88,21 @@ body {
 
   .white-container {
 		flex-direction: column;
-		height: 85%;
+		height: 100vh;
 		border-radius: 26px 26px 0px 0px;
+		width: 100%;
 	}
 
 	.action-container {
 		margin-top: 40px;
 		margin-bottom: 40px;
-		width: 80%;
+		width: 80vw;
 		justify-content: space-between;
 		gap: 30px;
 	}
 
 	.green-container {
-		width: 80%;
+		width: 80vw;
 		height: 45%;
 		margin-bottom: 40px;
 		margin-top: 50px;
