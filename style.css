@@ -70,18 +70,8 @@ body {
   justify-content: space-between;
 }
 
-/* Tablet width */
-@media (max-width: 1024px) {
-	.white-container {
-		display: flex;
-		align-items: center;
-		width: 100vw;
-		border-radius: 26px;
-	}
-} 
-
 /* Mobile width */
-@media (max-width: 390px) {
+@media (max-width: 1024px) {
 	.container {
 		height: auto;
 		flex-direction: column;
