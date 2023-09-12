@@ -35,6 +35,10 @@ input[type="number"] {
 	background-image: url("../assets/icon-dollar.svg");
 }
 
+.people {
+	padding-bottom: 40px;
+}
+
 .people-input {
 	background-image: url("../assets/icon-person.svg");
 }
