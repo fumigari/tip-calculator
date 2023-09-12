@@ -5,11 +5,19 @@
 	margin-top: 5px;
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) { */
+@media screen and (max-width: 1024px) and (orientation: portrait) {
 	.percentage-container {
 		grid-template-columns: repeat(2, 1fr); 
   	grid-template-rows: repeat(3, 1fr); 
 	}
+
+	.percentage-custom input,
+	.percentage-btn {
+		font-size: 18px;
+	}
+
+	
 }
 
 .percentage-item {
