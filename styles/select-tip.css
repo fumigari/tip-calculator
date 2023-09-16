@@ -6,25 +6,22 @@
 }
 
 /* @media (max-width: 390px) { */
-@media screen and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (max-width: 1024px) {
 	.percentage-container {
 		grid-template-columns: repeat(2, 1fr); 
   	grid-template-rows: repeat(3, 1fr); 
 	}
 
-	.percentage-custom input,
-	.percentage-btn {
-		font-size: 18px;
+	.percentage-custom input {
+		font-size: 15px;
 	}
 
-	
+	.percentage {
+		font-size: 18px;
+	}
 }
 
-.percentage-item {
-	text-align: center;
-}
-
-.percentage-btn {
+.percentage {
 	cursor: pointer;
 	width: 100%;
 	height: 5vh;
@@ -35,15 +32,12 @@
 	border-color: transparent;
 	font-family: 'Space Mono';
 	box-sizing: border-box;
+	transition: opacity 200ms;
 }
 
-.percentage-btn:active{ 
+.percentage.active{ 
   background-color: var(--strong-cyan);
   color: var(--very-dark-cyan);
-}
-
-.percentage-custom input::placeholder{
-	text-align: center;
 }
 
 .percentage-custom input {
@@ -56,4 +50,11 @@
 	color: var(--dark-grayish-cyan);
 	box-sizing: border-box;
 	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.percentage-custom input::placeholder{
+	text-align: center;
+	font-size: 15px;
 }
