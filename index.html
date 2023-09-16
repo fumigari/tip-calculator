@@ -42,28 +42,15 @@
         <!-- Select Tip % -->
         <div class="select-tip">
           <label class="select-tip-label">Select Tip %</label>
-
           <div class="percentage-container">
-            <div class="percentage-item">
-              <button type="button" class="percentage-btn" data-value="5">5%</button>
-            </div>
-            <div class="percentage-item">
-              <button type="button" class="percentage-btn" data-value="10">10%</button>
-            </div>
-            <div class="percentage-item">
-              <button type="button" class="percentage-btn" data-value="15">15%</button>
-            </div>
-            <div class="percentage-item">
-              <button type="button" class="percentage-btn" data-value="25">25%</button>
-            </div>
-            <div class="percentage-item">
-              <button type="button" class="percentage-btn" data-value="50">50%</button>
-            </div>
-            <div class="percentage-item">
-              <label class="percentage-custom">
-                <input type="number" class="percentage-input" value="" placeholder="Custom" />
-              </label>
-            </div>
+            <button type="button" class="percentage" data-value="5">5%</button>
+            <button type="button" class="percentage" data-value="10">10%</button>
+            <button type="button" class="percentage" data-value="15">15%</button>
+            <button type="button" class="percentage" data-value="25">25%</button>
+            <button type="button" class="percentage" data-value="50">50%</button>
+            <label class="percentage-custom">
+              <input type="number" class="percentage-input" value="" placeholder="Custom" />
+            </label>
           </div>
         </div>
 
@@ -77,19 +64,25 @@
       </div>
 
       <div class="green-container">
-        <div class="result-container">
-          <div class="result-text">
-            <p class="result-title">Tip Amount</p>
-            <p class="result-subtitle">/ person</p>
-
-            <div class="text-gap"></div>
-
-            <p class="result-title">Total</p>
-            <p class="result-subtitle">/ person</p>
+        <div class="results-container">
+          <div class="result">
+            <div class="result-label">
+              <p class="result-title">Tip Amount</p>
+              <p class="result-subtitle">/ person</p>
+            </div>
+            <span class="result-price">
+              $0.00
+            </span>
           </div>
-          <div class="result-price">
-            <p class="result-price-tip-amount">$0.00</p>
-            <p class="result-price-total">$0.00</p>
+
+          <div class="result">
+            <div class="result-label">
+              <p class="result-title">Total</p>
+              <p class="result-subtitle">/ person</p>
+            </div>
+            <span class="result-price">
+              $0.00
+            </span>
           </div>
         </div>
         <button class="reset-button" disabled>RESET</button>
