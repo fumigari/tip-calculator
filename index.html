@@ -26,7 +26,7 @@
 <body>
   <main class="container">
     <div class="logo">
-      <img class="logo__img" src="./assets/logo.svg" alt="logo">
+      <img class="logo__img" src="./assets/logo.svg" alt="logo" aria-label="Splitter logo image">
     </div>
 
     <div class="white-container">
@@ -35,7 +35,8 @@
         <div class="bill">
           <label class="bill-label">
             <span class="bill-span">Bill</span>
-            <input class="bill-input" type="number" step=".01" placeholder="0" min="0" />
+            <input class="bill-input" type="number" step=".01" placeholder="0" min="0"
+              aria-label="Please, fill the total bill" />
           </label>
         </div>
 
@@ -43,13 +44,14 @@
         <div class="select-tip">
           <label class="select-tip-label">Select Tip %</label>
           <div class="percentage-container">
-            <button type="button" class="percentage" data-value="5">5%</button>
-            <button type="button" class="percentage" data-value="10">10%</button>
-            <button type="button" class="percentage" data-value="15">15%</button>
-            <button type="button" class="percentage" data-value="25">25%</button>
-            <button type="button" class="percentage" data-value="50">50%</button>
+            <button type="button" class="percentage" aria-label="5%" data-value="5">5%</button>
+            <button type="button" class="percentage" aria-label="10%" data-value="10">10%</button>
+            <button type="button" class="percentage" aria-label="15%" data-value="15">15%</button>
+            <button type="button" class="percentage" aria-label="25%" data-value="25">25%</button>
+            <button type="button" class="percentage" aria-label="50%" data-value="50">50%</button>
             <label class="percentage-custom">
-              <input type="number" class="percentage-input" value="" placeholder="Custom" />
+              <input type="number" class="percentage-input" value="" placeholder="Custom"
+                aria-label="Add a custom percentage" />
             </label>
           </div>
         </div>
@@ -58,7 +60,8 @@
         <div class="people">
           <label class="people-label">
             <span>Number of people</span>
-            <input class="people-input" type="number" placeholder="0" min="1" max="100">
+            <input class="people-input" type="number" placeholder="0" min="1" max="100"
+              aria-label="Add the number of people to split the bill">
           </label>
         </div>
       </div>
@@ -70,7 +73,7 @@
               <p class="result-title">Tip Amount</p>
               <p class="result-subtitle">/ person</p>
             </div>
-            <span class="result-price">
+            <span class="result-price" aria-label="Price for tip amount per person">
               $0.00
             </span>
           </div>
@@ -80,12 +83,12 @@
               <p class="result-title">Total</p>
               <p class="result-subtitle">/ person</p>
             </div>
-            <span class="result-price">
+            <span class="result-price" aria-label="Price for total per person">
               $0.00
             </span>
           </div>
         </div>
-        <button class="reset-button" disabled>RESET</button>
+        <button class="reset-button disabled" aria-label="Reset all inputs">RESET</button>
       </div>
     </div>
   </main>
