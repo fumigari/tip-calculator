@@ -5,22 +5,6 @@
 	margin-top: 5px;
 }
 
-/* @media (max-width: 390px) { */
-@media screen and (max-width: 1024px) {
-	.percentage-container {
-		grid-template-columns: repeat(2, 1fr); 
-  	grid-template-rows: repeat(3, 1fr); 
-	}
-
-	.percentage-custom input {
-		font-size: 15px;
-	}
-
-	.percentage {
-		font-size: 18px;
-	}
-}
-
 .percentage {
 	cursor: pointer;
 	width: 100%;
@@ -57,4 +41,20 @@
 .percentage-custom input::placeholder{
 	text-align: center;
 	font-size: 15px;
+}
+
+/* @media (max-width: 390px) { */
+@media screen and (max-width: 1024px) {
+	.percentage-container {
+		grid-template-columns: repeat(2, 1fr); 
+		grid-template-rows: repeat(3, 1fr); 
+	}
+
+	.percentage-custom input {
+		font-size: 15px;
+	}
+
+	.percentage {
+		font-size: 18px;
+	}
 }
