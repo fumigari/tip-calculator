@@ -71,7 +71,7 @@ body {
 }
 
 /* Mobile width */
-@media screen and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (max-width: 576px) and (orientation: portrait) {
 	.container {
 		height: auto;
 		flex-direction: column;

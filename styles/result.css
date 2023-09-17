@@ -41,7 +41,7 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 576px) and (orientation: portrait) {
 	.result {
 		grid-column-gap: 0px;
 	}

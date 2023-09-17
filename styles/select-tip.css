@@ -43,9 +43,8 @@
 	font-size: 15px;
 }
 
-/* @media (max-width: 390px) { */
-@media screen and (max-width: 1024px) {
-	.percentage-container {
+@media screen and (max-width: 576px) and (orientation: portrait) {
+		.percentage-container {
 		grid-template-columns: repeat(2, 1fr); 
 		grid-template-rows: repeat(3, 1fr); 
 	}
