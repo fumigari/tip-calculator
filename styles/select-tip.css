@@ -19,7 +19,7 @@
 	transition: opacity 200ms;
 }
 
-.percentage.active{ 
+.percentage.active { 
   background-color: var(--strong-cyan);
   color: var(--very-dark-cyan);
 }
