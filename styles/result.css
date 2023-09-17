@@ -6,7 +6,6 @@
 	grid-template-rows: 1fr 1fr;
 	padding-top: 35px;
 	grid-row-gap: 3rem;
-	/*width: 100%;*/
 }
 
 .result {
@@ -28,7 +27,7 @@
 	margin: 0px 0px 0px 0px;
 }
 
-.result-subtitle  {
+.result-subtitle {
 	color: var(--grayish-cyan);
 	font-size: 15px;
 	margin: 0px 0px 0px 0px;
