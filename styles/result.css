@@ -9,16 +9,6 @@
 	/*width: 100%;*/
 }
 
-@media screen and (max-width: 1024px) {
-	.result {
-		grid-column-gap: 0px;
-	}
-
-	.result-label {
-    padding-right: 1rem;
-	}
-}
-
 .result {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -44,10 +34,19 @@
 	margin: 0px 0px 0px 0px;
 }
 
-.result-price,
 .result-price {
 	font-size: 40px;
 	color: var(--strong-cyan);
 	display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+	.result {
+		grid-column-gap: 0px;
+	}
+
+	.result-label {
+    padding-right: 1rem;
+	}
 }
