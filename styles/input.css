@@ -13,7 +13,7 @@
 }
 
 input[type="number"]:focus {
-	outline: none !important;
+	outline: none;
 	border: 2px solid var(--strong-cyan);
 }
 
@@ -33,10 +33,6 @@ input[type="number"] {
 
 .bill-input {
 	background-image: url("../assets/icon-dollar.svg");
-}
-
-.people {
-	padding-bottom: 40px;
 }
 
 .people-input {
