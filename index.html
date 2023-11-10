@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tip Calculator</title>
 
-  <meta name="author" content="Ariany Ferreira">
+  <meta name="author" content="Ariany Ferreira, Fumigari">
   <meta name="description"
-    content="This is a small app to calculate the correct tip and total cost of the bill per person from Frontend Mentor.">
+    content="Calculate the correct tip and total cost of the bill per person. App challenge on from Frontend Mentor.">
 
   <link rel="Calculator Icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
     <div class="logo">
       <img class="logo__img" src="./assets/logo.svg" alt="logo" aria-label="Splitter logo image">
     </div>
-    <div class="white-container">
+    <form class="white-container">
       <div class="action-container">
         <!-- Bill -->
         <div class="bill">
@@ -57,9 +57,12 @@
         <!-- Number of people -->
         <div class="people">
           <label class="people-label">
-            <span>Number of people</span>
+            <div class="people-label-message">
+              <span>Number of people</span>
+              <p class="error-message"></p>
+            </div>
             <input class="people-input" type="number" placeholder="0" min="1" max="100"
-              aria-label="Add the number of people to split the bill">
+              aria-label="Add the number of people to split the bill" step="1">
           </label>
         </div>
 
@@ -72,9 +75,7 @@
               <p class="result-title">Tip Amount</p>
               <p class="result-subtitle">/ person</p>
             </div>
-            <span class="result-price" aria-label="Price for tip amount per person">
-              $0.00
-            </span>
+            <span class="tip-price" aria-label="Price for tip amount per person">$0.00</span>
           </div>
 
           <div class="result">
@@ -82,16 +83,15 @@
               <p class="result-title">Total</p>
               <p class="result-subtitle">/ person</p>
             </div>
-            <span class="result-price" aria-label="Price for total per person">
-              $0.00
-            </span>
+            <span class="total-price" aria-label="Price for total per person">$0.00</span>
           </div>
 
           <button class="reset-button disabled" aria-label="Reset all inputs">RESET</button>
         </div>
       </div>
-    </div>
+    </form>
   </main>
+
 </body>
 
 </html>
