@@ -14,7 +14,6 @@
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	align-self: flex-start;
-	/* width: 90%; */
 }
 
 .result-title {
@@ -28,9 +27,9 @@
 	font-size: 12px;
 	margin: 0px 0px 0px 0px;
 }
-
-.result-price {
-	font-size: 40px;
+.tip-price,
+.total-price {
+	font-size: 35px;
 	color: var(--strong-cyan);
   justify-self: flex-end;
 }
