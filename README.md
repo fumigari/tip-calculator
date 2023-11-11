@@ -29,6 +29,7 @@ Users should be able to:
 ## Author
 
 - Website - [Ari Ferreira](https://ariferreira.com)
+- LinkedIn = [Ariany Ferreira](https://www.linkedin.com/in/arianysferreira/)
 - GitHub - [@fumigari](https://github.com/fumigari)
 
 ## Acknowledgments
